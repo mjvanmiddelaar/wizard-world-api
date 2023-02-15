@@ -17,12 +17,12 @@ describe OpenapiClient::Configuration do
 
   before(:each) do
     # uncomment below to setup host and base_path
-    # require 'URI'
-    # uri = URI.parse("http://localhost")
-    # OpenapiClient.configure do |c|
-    #   c.host = uri.host
-    #   c.base_path = uri.path
-    # end
+    require 'URI'
+    uri = URI.parse("https://wizard-world-api.herokuapp.com")
+    OpenapiClient.configure do |c|
+      c.host = uri.host
+      c.base_path = uri.path
+    end
   end
 
   describe '#base_url' do
