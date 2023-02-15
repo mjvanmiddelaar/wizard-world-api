@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "create-api-client": "npx openapi-generator-cli generate -i https://wizard-world-api.herokuapp.com/swagger/v1/swagger.json -g ruby"
+  },
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.5.2"
+  }
+}
