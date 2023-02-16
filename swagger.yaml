@@ -8,7 +8,7 @@ info:
   contact:
     name: Github
     url: https://github.com/MossPiglets/WizardWorldAPI
-  version: 1.0.2
+  version: 1.0.1
 paths:
   "/Elixirs":
     get:
