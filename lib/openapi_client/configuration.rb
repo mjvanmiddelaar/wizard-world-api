@@ -146,7 +146,7 @@ module OpenapiClient
     def initialize
       @scheme = 'https'
       @host = 'wizard-world-api.herokuapp.com'
-      @base_path = '/'
+      @base_path = ''
       @server_index = 0
       @server_operation_index = {}
       @server_variables = {}
@@ -234,8 +234,8 @@ module OpenapiClient
     def server_settings
       [
         {
-          url: "",
-          description: "No description provided",
+          url: "https://wizard-world-api.herokuapp.com",
+          description: "WizardWorldApi",
         }
       ]
     end

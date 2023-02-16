@@ -1,6 +1,6 @@
 # OpenapiClient::ElixirsApi
 
-All URIs are relative to *http://localhost*
+All URIs are relative to *https://wizard-world-api.herokuapp.com*
 
 | Method | HTTP request | Description |
 | ------ | ------------ | ----------- |
